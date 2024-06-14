@@ -1,0 +1,30 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package async;
+
+class Enterprise {
+    String id;
+    String name;
+    String ceo_id;
+
+    public Enterprise(String id, String name, String ceo_id) {
+        this.id = id;
+        this.name = name;
+        this.ceo_id = ceo_id;
+    }
+
+    public String toString() {
+        return "Enterprise_" + this.name;
+    }
+
+    public String getId() {
+        return this.id;
+    }
+
+    public String getCeo_id() {
+        return this.ceo_id;
+    }
+}
